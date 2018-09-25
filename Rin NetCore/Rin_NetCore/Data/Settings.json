@@ -1,0 +1,7 @@
+﻿{
+  "token": "Token do seu bot",
+  "owner": "Seu ID",
+  "log": [ "ID do server", "ID do canal" ],
+  "version": "1.0.0.0",
+  "banned": [ 393953532140716044 ]
+}
