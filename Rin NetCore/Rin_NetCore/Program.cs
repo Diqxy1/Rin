@@ -23,7 +23,7 @@ namespace Rin_NetCore
         private async Task MainAsync()
         {
             string JSON = "";
-            string SettingsLocation = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location).Replace(@"bin\Debug\netcoreapp2.0", @"Data\Settings.json");
+            string SettingsLocation = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location).Replace(@"bin\Debug\config", @"Data\Settings.json");
             using (var Stream = new FileStream(SettingsLocation, FileMode.Open, FileAccess.Read))
             using (var ReadSettings = new StreamReader(Stream))
             {
